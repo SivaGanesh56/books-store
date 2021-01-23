@@ -1,3 +1,8 @@
+.heading {
+    text-align: center;
+    color: blue;
+}
+
 .card {
     border-color: #0d406d;
 }
