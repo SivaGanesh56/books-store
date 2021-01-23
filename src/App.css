@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.card {
+    border-color: #0d406d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-title {
+    color: #000ca9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sub-title {
+    color: #009822;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col-header {
+    color: #482301;
 }
 
-.App-link {
-  color: #61dafb;
+.price {
+    color: #960f84;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.language {
+    color: #e0041d;
+}
+
+.rating {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.custom-table {
+    margin: 10px;
+}
+
+.react-bootstrap-table .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.react-bootstrap-table th .order > .dropdown > .caret {
+    margin: 10px 0 10px 5px;
+    color: #cccccc;
+}
+
+.dropup {
+    position: relative;
+}
+
+.react-bootstrap-table .dropup .caret {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid;
+}
+
+.spinner-border {
+    width: 5rem;
+    height: 5rem;
+    margin: 20px;
 }
